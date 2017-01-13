@@ -1,0 +1,416 @@
+---
+# https://www.aclweb.org/anthology/
+- id: A
+  name: ANLP
+  description: Applied Natural Language Processing
+  volumes:
+    - A/A83
+    - A/A88
+    - A/A92
+    - A/A94
+    - A/A97
+    - A/A00
+- id: C
+  name: COLING
+  description: International Conference on Computational Linguistics
+  volumes:
+    - C/C65
+    - C/C67
+    - C/C69
+    - C/C73
+    - C/C80
+    - C/C82
+    - P/P84
+    - C/C86
+    - C/C88
+    - C/C90
+    - C/C92
+    - C/C94
+    - C/C96
+    - P/P98
+    - C/C00
+    - C/C02
+    - C/C04
+    - P/P06
+    - C/C08
+    - C/C10
+    - C/C12
+    - C/C14
+    - C/C16
+- id: D
+  name: EMNLP
+  description: Empirical Methods in Natural Language Processing
+  volumes:
+    # Most of these redirect to the corresponding workshop, W/W##
+    #- D/D96
+    #- D/D97
+    #- D/D98
+    #- D/D99
+    #- D/D00
+    #- D/D01
+    #- D/D02
+    #- D/D03
+    #- D/D04
+    - D/D05
+    #- D/D06
+    - D/D07
+    - D/D08
+    - D/D09
+    - D/D10
+    - D/D11
+    - D/D12
+    - D/D13
+    - D/D14
+    - D/D15
+    - D/D16
+- id: E
+  name: EACL
+  description: European Chapter of the Association for Computational Linguistics
+  volumes:
+    - E/E83
+    - E/E85
+    - E/E87
+    - E/E89
+    - E/E91
+    - E/E93
+    - E/E95
+    - P/P97
+    - E/E99
+    - E/E03
+    - E/E06
+    - E/E09
+    - E/E12
+    - E/E14
+- id: F
+  name: JEP-TALN-RECITAL
+  description: Joint Conference JEP-TALN-RECITAL
+  volumes:
+    - F/F12
+    - F/F13
+    - F/F14
+- id: H
+  name: HLT
+  description: Human Language Technology Conference
+  volumes:
+    - H/H86
+    - H/H89
+    - H/H90
+    - H/H91
+    - H/H92
+    - H/H93
+    - H/H94
+    - H/H01
+    - N/N03
+    - N/N04
+    - H/H05
+    - N/N06
+    - N/N07
+    - P/P08
+    - N/N09
+    - N/N10
+    - N/N12
+    - N/N13
+    - N/N15
+    - N/N16
+- id: I
+  name: IJCNLP
+  description: International Joint Conference on Natural Language Processing
+  volumes:
+    - I/I05
+    - I/I08
+    - P/P09
+    - I/I11
+    - I/I13
+- id: J
+  name: CL
+  description: Journal of Computational Linguistics
+  volumes:
+    - J/J79
+    - J/J80
+    - J/J81
+    - J/J82
+    - J/J83
+    - J/J84
+    - J/J85
+    - J/J86
+    - J/J87
+    - J/J88
+    - J/J89
+    - J/J90
+    - J/J91
+    - J/J92
+    - J/J93
+    - J/J94
+    - J/J95
+    - J/J96
+    - J/J97
+    - J/J98
+    - J/J99
+    - J/J00
+    - J/J01
+    - J/J02
+    - J/J03
+    - J/J04
+    - J/J05
+    - J/J06
+    - J/J07
+    - J/J08
+    - J/J09
+    - J/J10
+    - J/J11
+    - J/J12
+    - J/J13
+    - J/J14
+    - J/J15
+    - J/J16
+- id: K
+  name: CoNLL
+  description: Computational Natural Language Learning
+  volumes:
+    - K/K97
+    - K/K98
+    - K/K99
+    - K/K00
+    - K/K01
+    - K/K02
+    - K/K03
+    - K/K04
+    - K/K05
+    - K/K06
+    - K/K07
+    - K/K08
+    - K/K09
+    - K/K10
+    - K/K11
+    - K/K12
+    - K/K13
+    - K/K14
+    - K/K15
+    - K/K16
+- id: L
+  name: LREC
+  description: International Conference on Language Resources and Evaluation
+  volumes:
+    - L/L00
+    - L/L02
+    - L/L04
+    - L/L06
+    - L/L08
+    - L/L10
+    - L/L12
+    - L/L14
+- id: M
+  name: MUC
+  description: Message Understanding Conference
+  volumes:
+    - M/M91
+    - M/M92
+    - M/M93
+    - M/M95
+    - M/M98
+- id: N
+  name: NAACL
+  description: North American Chapter of the Association for Computational Linguistics
+  volumes:
+    - A/A00
+    - N/N01
+    - N/N03
+    - N/N04
+    - N/N06
+    - N/N07
+    - N/N09
+    - N/N10
+    - N/N12
+    - N/N13
+    - N/N15
+    - N/N16
+- id: O
+  name: ROCLING
+  description: Conference on Computational Linguistics and Speech Processing
+  volumes:
+    - O/O88
+    - O/O89
+    - O/O90
+    - O/O91
+    - O/O92
+    - O/O93
+    - O/O94
+    - O/O95
+    - O/O96
+    - O/O97
+    - O/O98
+    - O/O99
+    - O/O00
+    - O/O01
+    - O/O02
+    - O/O03
+    - O/O04
+    - O/O05
+    - O/O06
+    - O/O07
+    - O/O08
+    - O/O09
+    - O/O10
+    - O/O11
+    - O/O12
+    - O/O13
+    - O/O14
+    - O/O15
+- id: P
+  name: ACL
+  description: Association for Computational Linguistics
+  volumes:
+    - P/P79
+    - P/P80
+    - P/P81
+    - P/P82
+    - P/P83
+    - P/P84
+    - P/P85
+    - P/P86
+    - P/P87
+    - P/P88
+    - P/P89
+    - P/P90
+    - P/P91
+    - P/P92
+    - P/P93
+    - P/P94
+    - P/P95
+    - P/P96
+    - P/P97
+    - P/P98
+    - P/P99
+    - P/P00
+    - P/P01
+    - P/P02
+    - P/P03
+    - P/P04
+    - P/P05
+    - P/P06
+    - P/P07
+    - P/P08
+    - P/P09
+    - P/P10
+    - P/P11
+    - P/P12
+    - P/P13
+    - P/P14
+    - P/P15
+    - P/P16
+- id: Q
+  name: TACL
+  description: Transactions of the Association for Computational Linguistics
+  volumes:
+    - Q/Q13
+    - Q/Q14
+    - Q/Q15
+    - Q/Q16
+- id: R
+  name: RANLP
+  description: Recent Advances in Natural Language Processing
+  volumes:
+    - R/R09
+    - R/R11
+    - R/R13
+    - R/R15
+- id: S
+  name: SemEval
+  description: International Workshop on Semantic Evaluation
+  volumes:
+    - S/S98
+    - S/S01
+    - S/S07
+    - S/S10
+    - S/S12
+    - S/S13
+    - S/S14
+    - S/S15
+    - S/S16
+- id: T
+  name: TINLAP
+  description: Theoretical Issues in Natural Language Processing
+  volumes:
+    - T/T75
+    - T/T78
+    - T/T87
+- id: U
+  name: ALTA
+  description: Australasian Language Technology Workshop
+  volumes:
+    - U/U03
+    - U/U04
+    - U/U05
+    - U/U06
+    - U/U07
+    - U/U08
+    - U/U09
+    - U/U10
+    - U/U11
+    - U/U12
+    - U/U13
+    - U/U14
+    - U/U15
+    - U/U16
+- id: W
+  name: Workshops
+  description: Workshops
+  volumes:
+    - W/W90
+    - W/W91
+    - W/W93
+    - W/W94
+    - W/W95
+    - W/W96
+    - W/W97
+    - W/W98
+    - W/W99
+    - W/W00
+    - W/W01
+    - W/W02
+    - W/W03
+    - W/W04
+    - W/W05
+    - W/W06
+    - W/W07
+    - W/W08
+    - W/W09
+    - W/W10
+    - W/W11
+    - W/W12
+    - W/W13
+    - W/W14
+    - W/W15
+    - W/W16
+- id: X
+  name: Tipster
+  description: Tipster
+  volumes:
+    - X/X93
+    - X/X96
+    - X/X98
+- id: Y
+  name: PACLIC
+  description: "Pacific Asia Conference on Language, Information, and Computation"
+  volumes:
+    - Y/Y95
+    - Y/Y96
+    - Y/Y98
+    - Y/Y99
+    - Y/Y00
+    - Y/Y01
+    - Y/Y02
+    - Y/Y03
+    - Y/Y04
+    - Y/Y05
+    - Y/Y06
+    - Y/Y07
+    - Y/Y08
+    - Y/Y09
+    - Y/Y10
+    - Y/Y11
+    - Y/Y12
+    - Y/Y13
+    - Y/Y14
+    - Y/Y15
+    - Y/Y16
