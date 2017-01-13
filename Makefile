@@ -2,6 +2,7 @@ BASE=/Volumes/Threading/aclweb-data
 VOLUMES=$(shell cat conferences.yaml | yaml2json | jq -r '.[] | .volumes | .[]')
 PDFS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].pdf.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
 BIBS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].bib.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
+TXTS=$(shell find $(BASE) -name '*.pdf' | sed s/pdf/txt/)
 
 all: all-index all-index-json all-pdf all-bib
 
@@ -13,6 +14,11 @@ all: all-index all-index-json all-pdf all-bib
 
 # %.bib.json: %.bib $(NODE_PATH)/tex-node
 # 	$(NODE_PATH)/tex-node bib-json $< >$@
+
+%.txt: %.pdf
+	pdftotext $< $@
+
+all-txt: $(TXTS)
 
 ### Downloading original sources
 
