@@ -1,8 +1,9 @@
 BASE=/Volumes/Threading/aclweb-data
 VOLUMES=$(shell cat conferences.yaml | yaml2json | jq -r '.[] | .volumes | .[]')
 PDFS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].pdf.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
+BIBS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].bib.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
 
-all: all-index all-index-json all-pdf
+all: all-index all-index-json all-pdf all-bib
 
 # %.pdf.json: %.pdf $(NODE_PATH)/pdfi
 # 	$(NODE_PATH)/pdfi paper $< >$@
@@ -34,3 +35,10 @@ $(BASE)/%.pdf:
 
 # Download all of the PDFs
 all-pdf: $(PDFS:%=$(BASE)/%)
+
+$(BASE)/%.bib:
+	@mkdir -p $(@D)
+	curl -s https://aclweb.org/anthology/$*.bib >$@
+
+# Download all of the .bib files
+all-bib: $(BIBS:%=$(BASE)/%)
