@@ -357,6 +357,9 @@
   name: Workshops
   description: Workshops
   volumes:
+    - W/W85
+    - W/W87
+    - W/W89
     - W/W90
     - W/W91
     - W/W93
@@ -383,6 +386,7 @@
     - W/W14
     - W/W15
     - W/W16
+    - W/W17
 - id: X
   name: Tipster
   description: Tipster
