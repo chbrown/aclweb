@@ -81,6 +81,7 @@
     - E/E09
     - E/E12
     - E/E14
+    - E/E17
 - id: F
   name: JEP-TALN-RECITAL
   description: Joint Conference JEP-TALN-RECITAL
@@ -163,6 +164,7 @@
     - J/J14
     - J/J15
     - J/J16
+    - J/J17
 - id: K
   name: CoNLL
   description: Computational Natural Language Learning
@@ -357,6 +359,10 @@
   name: Workshops
   description: Workshops
   volumes:
+    - W/W77
+    - W/W79
+    - W/W81
+    - W/W83
     - W/W85
     - W/W87
     - W/W89
