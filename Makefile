@@ -1,4 +1,4 @@
-BASE=/Volumes/Threading/aclweb-data
+BASE=/Volumes/chb/aclweb-data
 VOLUMES=$(shell cat conferences.yaml | yaml2json | jq -r '.[] | .volumes | .[]')
 PDFS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].pdf.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
 BIBS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].bib.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
