@@ -63,6 +63,7 @@
     - D/D14
     - D/D15
     - D/D16
+    - D/D17
 - id: E
   name: EACL
   description: European Chapter of the Association for Computational Linguistics
@@ -189,6 +190,7 @@
     - K/K14
     - K/K15
     - K/K16
+    - K/K17
 - id: L
   name: LREC
   description: International Conference on Language Resources and Evaluation
@@ -226,6 +228,7 @@
     - N/N13
     - N/N15
     - N/N16
+    - N/N17
 - id: O
   name: ROCLING
   description: Conference on Computational Linguistics and Speech Processing
@@ -301,6 +304,7 @@
     - P/P14
     - P/P15
     - P/P16
+    - P/P17
 - id: Q
   name: TACL
   description: Transactions of the Association for Computational Linguistics
@@ -309,6 +313,7 @@
     - Q/Q14
     - Q/Q15
     - Q/Q16
+    - Q/Q17
 - id: R
   name: RANLP
   description: Recent Advances in Natural Language Processing
@@ -330,6 +335,7 @@
     - S/S14
     - S/S15
     - S/S16
+    - S/S17
 - id: T
   name: TINLAP
   description: Theoretical Issues in Natural Language Processing
