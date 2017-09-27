@@ -1,4 +1,4 @@
-BASE=/Volumes/chb/aclweb-data
+BASE?=/Volumes/GABA/aclweb-data
 VOLUMES=$(shell cat conferences.yaml | yaml2json | jq -r '.[] | .volumes | .[]')
 PDFS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].pdf.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
 BIBS=$(shell cat $(BASE)/?/???/index.html.json | jq -r '.[].bib.url' | sed s%https://www.aclweb.org/anthology/%%g | egrep '^.{18}$$')
@@ -21,6 +21,7 @@ all: all-index all-index-json all-pdf all-bib
 all-txt: $(TXTS)
 
 ### Downloading original sources
+### See https://www.aclweb.org/anthology/ for live site
 
 $(BASE)/%/index.html:
 	@mkdir -p $(@D)
